@@ -5,7 +5,7 @@ $black2: #495057;
 
 body{
 	font-family: 'Montserrat', sans-serif;
-	color: $black2;
+	color: #fff;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -48,7 +48,7 @@ a, .btn-link{
 // Header
 
 header{
-	background: #fff;
+	background: $primary;
 	padding: 10px 0;
 	box-shadow: 0 5px 10px rgba(204,204,204,0.31);
 	position: fixed;
@@ -81,7 +81,7 @@ header{
 			left: 0;
 			top: 0;
 			font-size: 20px;
-			color: $primary;
+			color: #fff;
 		}
     }
 }
@@ -107,4 +107,23 @@ header{
             }
         }
     }
+}
+// Main
+
+.main{
+	padding-top: 80px;
+}
+
+.search-container{
+	padding-top: 30px;
+
+	input{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		border: 1px solid #ccc;
+		font-size: 14px;
+		padding: 8px 10px;
+		border-radius: 4px;
+	}
 }

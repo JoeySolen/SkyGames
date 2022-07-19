@@ -13151,7 +13151,7 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Montserrat", sans-serif;
-  color: #495057;
+  color: #fff;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -13192,7 +13192,7 @@ a:hover, .btn-link:hover {
 }
 
 header {
-  background: #fff;
+  background: #8a022b;
   padding: 10px 0;
   -webkit-box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
           box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
@@ -13227,7 +13227,7 @@ header .avatar-container i {
   left: 0;
   top: 0;
   font-size: 20px;
-  color: #8a022b;
+  color: #fff;
 }
 
 .profile-options-modal .profile-options-list {
@@ -13245,4 +13245,21 @@ header .avatar-container i {
   width: 18px;
   text-align: center;
   margin-right: 5px;
+}
+
+.main {
+  padding-top: 80px;
+}
+
+.search-container {
+  padding-top: 30px;
+}
+.search-container input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 4px;
 }
