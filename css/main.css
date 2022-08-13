@@ -13171,6 +13171,7 @@ a:hover, .btn-link:hover {
 }
 
 .btn.btn-primary {
+  width: 100%;
   font-weight: 500;
   color: #fff;
 }
@@ -13344,7 +13345,7 @@ header .avatar-container i {
   font-size: 20px;
   color: #495057;
 }
-.products-list-container ul li .product-info .restaurant {
+.products-list-container ul li .product-info .store {
   margin-bottom: 10px;
   font-size: 11px;
   color: #807e7e;
